@@ -1,0 +1,17 @@
+.mode{
+    cursor: pointer;
+    display: inline;
+}
+.header{
+    text-align: center
+}
+.btu{
+    text-align: center;
+}
+.body{
+    text-align: center;
+}
+.time{
+    font-size: 200px;
+    padding:100px 0px 100px 0px;
+}
