@@ -7,14 +7,14 @@ let resetRequested = false;
 timeElement.textContent = "00:00";
 
 function toggle() {
-  if (mode.textContent === "Dark mode") {
-    mode.textContent = "Light mode";
-    document.body.style.background = "white";
-    document.body.style.color = "black";
-  } else {
-    mode.textContent = "Dark mode";
-    document.body.style.background = "black";
+if (mode.textContent === "Dark mode 🌙") {
+    document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
+    mode.textContent = "Light mode ☀️";
+  } else {
+    document.body.style.backgroundColor = "white";
+    document.body.style.color = "black";
+    mode.textContent = "Dark mode 🌙";
   }
 }
 
