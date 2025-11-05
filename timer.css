@@ -5,11 +5,13 @@
     top: 10px;
     right: 10px;
 }
+
 .header{
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
 }
+
 .btu,.reset{
     text-align: center;
     background-color: aquamarine;
@@ -36,4 +38,5 @@
 .time{
     font-size: 200px;
     padding:100px 0px 100px 0px;
+    font-family: "Alarm Clock", sans-serif;
 }
