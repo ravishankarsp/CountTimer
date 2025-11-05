@@ -1,2 +1,2 @@
 # CountTimer
-CountTimer is the application used for shedule, fitness etc.
+CountTimer is the application used for shedule, fitness for count seconds.
