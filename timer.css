@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+}
+
 .mode{
     cursor: pointer;
     display: inline;
@@ -9,7 +13,8 @@
 .header{
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    background-color: rgb(79, 129, 246);
+    padding: 20px 20px 20px 20px;
 }
 
 .btu,.reset{
@@ -30,11 +35,11 @@
 
 .body{
     text-align: center;
-    background-color: rgb(135, 129, 129);
+    background-color: grey;
     color: black;
     height: 80vh;
-    border-radius: 50px;
 }
+
 .time{
     font-size: 200px;
     padding:100px 0px 100px 0px;
@@ -45,7 +50,7 @@
     display: inline; 
 }
 
-body {
+*{
   transition: background 0.3s ease, color 0.3s ease;
 }
 
